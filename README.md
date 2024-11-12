@@ -3,7 +3,7 @@
 
 ## Technologies Used
 
-- [**Apache Kafka**](https://kafka.apache.org/documentation/))
+- [**Apache Kafka**](https://kafka.apache.org/documentation/)
 - [**Apache Airflow**](https://airflow.apache.org/docs/)
 - [**Docker**](https://docs.docker.com/compose/intro/compose-application-model/)
 - [**SQLAlchemy**](https://docs.sqlalchemy.org/en/20/intro.html)
@@ -32,32 +32,6 @@ source venv/bin/activate
 pip install pandas numpy sqlalchemy pyspark apache-airflow
 ```
 
-## Docker
-
-Create docker-compose.yml
-
-```sh
-version: '3.8'
-services:
-  postgres:
-    image: postgres:latest
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: mydatabase
-    ports:
-      - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
-volumes:
-  postgres_data:
-```
-
-To start docker, run:
-```sh
-docker-compose up -d
-```
 
 ## Usage
 
