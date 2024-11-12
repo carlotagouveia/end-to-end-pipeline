@@ -34,6 +34,12 @@ source venv/bin/activate
 pip install pandas numpy sqlalchemy pyspark apache-airflow
 ```
 
+## Docker
+
+```sh
+docker-compose up -d
+```
+
 
 ## Usage
 
