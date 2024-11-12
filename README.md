@@ -4,6 +4,8 @@
 ## Technologies Used
 
 - [**Apache Kafka**](https://kafka.apache.org/documentation/)
+- [**Apache Zookeeper**](https://zookeeper.apache.org/)
+- [**Apache Cassandra**](https://cassandra.apache.org/_/index.html)
 - [**Apache Airflow**](https://airflow.apache.org/docs/)
 - [**Docker**](https://docs.docker.com/compose/intro/compose-application-model/)
 - [**SQLAlchemy**](https://docs.sqlalchemy.org/en/20/intro.html)
